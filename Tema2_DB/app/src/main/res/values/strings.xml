@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tema2</string>
+    <string name="full_name">Enter first and last name</string>
+    <string name="mark">Enter mark between 1 and 10</string>
+    <string name="add_student">Add Student</string>
+    <string name="remove_student">Remove Student</string>
+</resources>

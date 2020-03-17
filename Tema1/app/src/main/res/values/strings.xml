@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tema1</string>
+    <string name="button_f1a1_text">Redirect to A2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_4">Fragment 3</string>
+    <string name="replace_f1a2">ReplaceF1A2</string>
+    <string name="eliminate_f1a2">Eliminate F1A2</string>
+    <string name="close_a2">Close A2</string>
+    <string name="add_f2a2">Add F2A2</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+    <string name="fragment_3">Fragment 3</string>
+</resources>
