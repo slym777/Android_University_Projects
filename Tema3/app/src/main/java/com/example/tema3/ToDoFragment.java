@@ -51,6 +51,8 @@ public class ToDoFragment extends Fragment {
         toDoAdapter = new ToDoAdapter(new ArrayList<ToDo>(), getContext());
         toDoRecyclerView.setAdapter(toDoAdapter);
 
+
+
         getToDosFromJsonRequest();
 
         return toDoFragmentView;

@@ -7,6 +7,8 @@ import android.app.PendingIntent;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.format.DateFormat;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -96,7 +98,7 @@ public class AlarmFragment extends Fragment {
                                 hourAlarm = sHour;
                                 minuteAlarm = sMinute;
                             }
-                        }, hour, minutes, true);
+                        }, hour, minutes, DateFormat.is24HourFormat(getActivity()));
                 timePickerDialog.show();
             }
         });
@@ -114,7 +116,8 @@ public class AlarmFragment extends Fragment {
 
                 scheduleNotification(calendar);
 
-                getFragmentManager().beginTransaction().remove(AlarmFragment.this).commit();
+                ToDoFragment toDoFragment = new ToDoFragment();
+                ((ToDoActivity)getActivity()).replaceFragment(toDoFragment, R.id.alarm_fragment_layout);
             }
         });
 

@@ -14,13 +14,20 @@ public class ToDoActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_todos);
+
+        ToDoFragment toDoFragment = new ToDoFragment();
+        this.setDefaultFragment(toDoFragment);
+    }
+
+    private void setDefaultFragment(Fragment defaultFragment) {
+        this.replaceFragment(defaultFragment, R.id.alarm_fragment_layout);
     }
 
     public void replaceFragment(Fragment fragment, int id) {
         FragmentManager fragmentManager = this.getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(id, fragment);
-        fragmentTransaction.addToBackStack(null);
+//        fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
 }
