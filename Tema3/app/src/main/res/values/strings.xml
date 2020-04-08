@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Tema3</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="choose_date">Choosed Date</string>
+    <string name="pick_time">Pick Time</string>
+    <string name="choosed_time">Choosed Time</string>
+    <string name="create_alarm">Create Alarm</string>
+    <string name="title_alarm">Title Alarm</string>
 </resources>

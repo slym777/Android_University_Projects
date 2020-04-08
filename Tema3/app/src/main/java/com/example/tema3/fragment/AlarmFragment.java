@@ -1,14 +1,12 @@
-package com.example.tema3;
+package com.example.tema3.fragment;
 
 import android.app.AlarmManager;
 import android.app.DatePickerDialog;
-import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.format.DateFormat;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,6 +20,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.tema3.R;
+import com.example.tema3.ToDoActivity;
 import com.example.tema3.helper.ReceiverHelper;
 
 import java.util.Calendar;

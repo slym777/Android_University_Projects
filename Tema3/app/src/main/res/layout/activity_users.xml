@@ -10,6 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/users_fragment"
-        android:name="com.example.tema3.UserFragment"/>
+        android:name="com.example.tema3.fragment.UserFragment"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

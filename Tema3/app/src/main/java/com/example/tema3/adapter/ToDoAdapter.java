@@ -1,7 +1,6 @@
 package com.example.tema3.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,11 +10,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.tema3.AlarmFragment;
+import com.example.tema3.fragment.AlarmFragment;
 import com.example.tema3.R;
 import com.example.tema3.ToDoActivity;
 import com.example.tema3.model.ToDo;
-import com.example.tema3.model.User;
 
 import java.util.List;
 
